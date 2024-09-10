@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,33 +8,54 @@
     <!--Tag para descrever o nome do desenvolvedor -->
     <link rel="shortcut icon" href="assets/icon.png" type="image/x-icon">
     <!--Tag Link para adicionar icon na barra do navegador-->
+    <link rel="stylesheet" href="./assets/CSS/style.css">
     <title>Minha Empresa</title>
-   
+
 </head>
+
 <body>
-    <ul>
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="./pages/historia.html">História</a></li>
-        <li><a href="./pages/contato.html">Contato</a></li>
-    </ul>
-    <h1>Minha Empresa</h1>
-    <img src="assets/img/empresa.jpg" width="800px" alt="Empresa Clt" >
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus cum, totam architecto, assumenda magnam perferendis ipsam, voluptatum laboriosam nam distinctio fugiat. Adipisci ex sit porro dolorum veniam quasi est minus corrupti recusandae? Blanditiis quam quis perspiciatis obcaecati quaerat neque ratione nihil, error atque vel fugit vero! Officia optio minima numquam facere iste provident corrupti libero alias id eaque quis iure nihil nulla quisquam, corporis esse obcaecati quae, dolores maiores, expedita neque praesentium molestias velit. Hic obcaecati, dolor ea, laboriosam nam maiores quasi magnam earum, ullam officiis placeat unde perferendis beatae perspiciatis! Cum ab omnis perferendis labore tempora dignissimos ad rerum!</p>
+    <div class="cabecalho">
+        <h1>Logo</h1>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./pages/historia.html">História</a></li>
+            <li><a href="./pages/contato.html">Contato</a></li>
+        </ul>
+    </div>
 
-    <button>Conheça nossa História</button>
-    <h2>Inscreva-se na nossa Newsletter</h2>
-    <p>Tenha as ultimas noticias sobre a empresa - todas as segundas feiras.</p>
+    <div class="main">
+        <div class="pai-dos-lados">
+            <div class="lado-esquerdo">
+                <h1>Minha Empresa</h1>
 
-    <form>
-        <label for="nome">Nome</label>
-        <input type="text" id="nome" placeholder="Digite seu nome completo" required>
-        <label for="email">Email</label>
-        <input type="email" id="email" placeholder="Digite seu E-mail" required>
-        <input type="submit" value="Inscreva-se" />
-    </form>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus cum, totam architecto, assumenda
+                    magnam perferendis ipsam, voluptatum laboriosam nam distinctio fugiat. Adipisci ex sit porro dolorum
+                    veniam quasi est minus corrupti recusandae? Blanditiis quam quis perspiciatis obcaecati quaerat
+                    neque ratione nihil, error atque vel fugit vero! Officia optio minima numquam facere iste provident
+                    corrupti libero alias id eaque quis iure nihil nulla quisquam, corporis esse obcaecati quae, dolores
+                    maiores, expedita neque praesentium molestias velit. Hic obcaecati, dolor ea, laboriosam nam maiores
+                    quasi magnam earum, ullam officiis placeat unde perferendis beatae perspiciatis! Cum ab omnis
+                    perferendis labore tempora dignissimos ad rerum!</p>
 
+                <button>Conheça nossa História</button>
+            </div>
+            <div class="lado-direito">
+                <img src="assets/img/empresa.jpg" width="800px" alt="Empresa Clt">
+            </div>
+        </div>
+                <h2>Inscreva-se na nossa Newsletter</h2>
+                <p>Tenha as ultimas noticias sobre a empresa - todas as segundas feiras.</p>
 
+        <form>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" placeholder="Digite seu nome completo" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Digite seu E-mail" required>
+            <input type="submit" value="Inscreva-se" />
+        </form>
 
-    <p>Desenvolvido por <strong>Carlos Henrique</strong> &#x2B50; Todos direitos reservados</p>
+        <p>Desenvolvido por <strong>Carlos Henrique</strong> &#x2B50; Todos direitos reservados</p>
+    </div>
 </body>
+
 </html>
