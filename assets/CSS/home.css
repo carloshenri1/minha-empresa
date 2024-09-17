@@ -18,19 +18,6 @@
     flex-direction: column;
     gap: 20px;
  }
- .pai-dos-lados .lado-esquerdo button{
-    width: 50%;
-    border: 2px solid black;
-    border-radius: 4px;
-    padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
-    box-shadow: black 3px 3px 0px;
-    cursor:pointer;
- }
- .pai-dos-lados .lado-esquerdo button:hover{
-    background: #555;
- }
  .pai-dos-lados .lado-esquerdo h1 , .newsletter h2{
     text-transform: uppercase;
  }
@@ -38,9 +25,29 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    padding-bottom: 30px;
  }
 .newsletter .espace{
     display: flex;
     flex-direction: column;
     gap:5px
+}
+.newsletter form input{
+   padding: 10px 6px
+}
+.btn{
+   width: 50%;
+   border: 2px solid black;
+   border-radius: 4px;
+   padding: 10px 20px;
+   background-color: #333;
+   color: #fff;
+   box-shadow: black 3px 3px 0px;
+   cursor:pointer;
+
+}
+
+.btn:hover{
+   background-color: blue;
+   
 }

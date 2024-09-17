@@ -15,17 +15,19 @@
 </head>
 
 <body>
-    <div class="cabecalho">
+    <header class="cabecalho">
         <h1>Logo</h1>
-        <ul>
+    <nav> 
+         <ul>
             <li><a href="../index.html">Home</a></li>
             <li><a href="./pages/historia.html">História</a></li>
             <li><a href="./pages/contato.html">Contato</a></li>
         </ul>
-    </div>
+    </nav>
+    </header>
 
-    <div class="main">
-        <div class="pai-dos-lados">
+    <main class="main">
+        <section class="pai-dos-lados">
             <div class="lado-esquerdo">
                 <h1>Minha Empresa</h1>
 
@@ -37,29 +39,30 @@
                     maiores, expedita neque praesentium molestias velit. Hic obcaecati, dolor ea, laboriosam nam maiores
                     quasi magnam earum, ullam officiis placeat unde perferendis beatae perspiciatis! Cum ab omnis
                     perferendis labore tempora dignissimos ad rerum!</p>
-                <button>Conheça nossa História</button>
+                <button class="btn">Conheça nossa História</button>
             </div>
             <div class="lado-direito">
                 <img src="assets/img/empresa.jpg" width="800px" alt="Empresa Clt">
             </div>
-        </div>
-        <div class="newsletter">
-            <div class="espace">
-            <h2>Inscreva-se na nossa Newsletter</h2>
-            <p>Tenha as ultimas noticias sobre a empresa - todas as segundas feiras.</p>
-        </div>
-     <form>
-        <label for="nome">Nome</label>
-        <input type="text" id="nome" placeholder="Digite seu nome completo" required>
-        <label for="email">Email</label>
-        <input type="email" id="email" placeholder="Digite seu E-mail" required>
-        <input type="submit" value="Inscreva-se" />
-    </form>
+        </section>
+    <section class="newsletter">
+                <div class="espace">
+                <h2>Inscreva-se na nossa Newsletter</h2>
+                <p>Tenha as ultimas noticias sobre a empresa - todas as segundas feiras.</p>
+                <form>
+                   <label for="nome">Nome</label>
+                   <input type="text" id="nome" placeholder="Digite seu nome completo" required>
+                   <label for="email">Email</label>
+                   <input type="email" id="email" placeholder="Digite seu E-mail" required>
+                   <input class="btn" type="submit" value="Inscreva-se" />
+               </form>
+                   </div>
+         </section>
 
-        </div>
-
+    </main>
+        <footer class="rodape">
         <p>Desenvolvido por <strong>Carlos Henrique</strong> &#x2B50; Todos direitos reservados</p>
-    </div>
+    </footer>
 </body>
-
+    
 </html>
