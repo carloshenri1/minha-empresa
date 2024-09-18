@@ -44,6 +44,7 @@
    color: #fff;
    box-shadow: black 3px 3px 0px;
    cursor:pointer;
+   text-align: center;
 
 }
 
@@ -51,3 +52,24 @@
    background-color: blue;
    
 }
+@media screen and (max-width: 789px){
+
+.newsletter form{
+
+   display: flex;
+   flex-direction: column;
+   gap: 6px;
+}
+}
+
+   .pai-dos-lados{
+      flex-direction: column-reverse;
+
+   }
+   .pai-dos-lados div{
+      width: 100%;
+  }
+   
+
+ 
+ 
