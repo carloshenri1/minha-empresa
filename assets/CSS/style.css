@@ -37,7 +37,7 @@
     padding: 20px 30px;
   
 }
-@media screen and (max-width: 500px){
+@media screen and (max-width: 700px){
    
 .cabecalho nav{
     display: none;

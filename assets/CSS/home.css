@@ -52,7 +52,10 @@
    background-color: blue;
    
 }
-@media screen and (max-width: 789px){
+.cabecalho ul li:hover{
+ background-color:red ;
+}
+@media screen and (max-width: 780px){
 
 .newsletter form{
 
@@ -61,7 +64,7 @@
    gap: 6px;
 }
 }
-
+@media screen and (max-width: 733px){
    .pai-dos-lados{
       flex-direction: column-reverse;
 
@@ -69,7 +72,14 @@
    .pai-dos-lados div{
       width: 100%;
   }
-   
+}
+
+@media screen and (max-width: 650px){
+   .main{
+      flex-direction: column-reverse;
+padding: 10px;
+   }
+}
 
  
  

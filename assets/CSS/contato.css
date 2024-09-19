@@ -1,0 +1,41 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background: linear-gradient(#2c93d8, #4f59c9);
+    
+}
+.main h1{
+    color: white;
+}
+.main i{
+    width: 50px;
+    height: 100%;
+  padding-bottom: 20px;
+  color: beige;
+}
+.main p{
+    color: white;
+}
+.main .logo{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.main iframe{
+    width: 100%;
+   border-radius: 100px;
+   padding-bottom: 30px;
+}
+.cabecalho .home{
+    background-color: azure;
+    color: black;
+}
+
+.cabecalho ul li:hover{
+    background-color:red ;
+}
